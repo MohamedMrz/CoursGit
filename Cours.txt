@@ -1,0 +1,19 @@
+// Création - Changement Branche
+git checkout -B <nom-branche>
+git branch <nom-branche> // Création
+git checkout <nom-branche> // Chgmnt
+
+// Check les gens qui commit
+git log
+git shortlog | grep //Nbr commits
+git log --graph //voir le graphe des différentes branches
+
+git push -origin- -destination-
+
+// Fusion de branches (git pull origin main) au prealable
+git merge branch1 main // branch1 vers main
+git push origin main
+
+//Avant le commit
+git stash apply - pop //apply pour appliquer du travail modifié, ou pop pour ranger
+
