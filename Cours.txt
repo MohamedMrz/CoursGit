@@ -15,5 +15,16 @@ git merge branch1 main // branch1 vers main
 git push origin main
 
 //Avant le commit
-git stash apply - pop //apply pour appliquer du travail modifié, ou pop pour ranger
+git stash apply //apply pour appliquer du travail modifié
+git stash pop //pop pour ranger le travail modifié
 
+git status // permet de voir l'état du dépôt à l'instant T
+
+git ignore // mettre les fichiers de secret ou autres afin de ne pas les push
+
+git reset // reset tous les add fait avant le commit
+
+git rm // supprime sur le dépot + chez vous
+git rm --cached // supprime sur le dépôt mais pas chez vous
+
+git diff // montre la différence entre 2 commits -origin par rapport au dépôt distant-
